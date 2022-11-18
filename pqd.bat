@@ -1,0 +1,6 @@
+@echo off
+echo Baixando o SFX python3_10_5_x64_portable.exe...
+curl -L -O "https://github.com/srtopster/pqd/releases/download/1/python3_10_5_x64_portable.exe"
+echo Extraindo arquivo arquivo...
+python3_10_5_x64_portable.exe -o"python3" -y
+echo Completo !
